@@ -1,0 +1,457 @@
+
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #8b8b8b;
+    color: #ffffff;
+    /* font-family:'Playfair Display'; */
+    font-weight: 300;
+
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0);
+    /* padding: 25px 100px; */
+    font-weight: 600;
+    width: 100%;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    padding-bottom: 2px;
+
+}
+
+
+.search{
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 45px;
+    background-position: right;
+    border-radius: 15px;
+    border-color: #00aeff;
+    color: black;
+    width: 25%;
+    padding-left: 1%;
+    margin-right: 10%;
+    margin-left: 37%;
+}
+
+.SearchDiv{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 100%;
+
+}
+
+/* .Button {
+    width: 5%;
+    padding: 10px 10px;
+    margin: 0px 5%;
+    font-family:'Playfair Display';
+    font-weight: 300;
+    border: 0;
+    background: rgb(68, 68, 68);
+    color: #fff;
+    outline: none;
+    
+} */
+
+.hdbutton{
+    margin-top: 4%;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 10px;
+    margin-right: 10px;
+    /* margin: 0 20px; */
+    background: rgb(255, 255, 255);
+    border-color:#00aeff;
+    cursor: pointer;
+    border-radius: 17px;
+}
+
+
+.hdbutton1{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    vertical-align: top;
+    padding: 10px 10px;
+    margin: 0 4px;
+    background: white;
+    border-color: #00aeff;
+    cursor: pointer;
+    border-radius: 17px;
+}
+
+
+.logo{
+    padding-top: 30px;
+    margin-right: 1000px;
+    position: absolute;
+    vertical-align: middle;
+    font-family: 'Inspiration', cursive;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Middle */
+
+.MidPic{
+    background: url(../img/MidPic2.jpg) no-repeat;
+    /* position: absolute; */
+    height: 300px;
+    display: flex;
+    background-size: cover;
+    
+}
+
+.MidPic::after{
+    content: 'Electron';
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    font-size: 100px;
+    color: fff;
+    width: 800px;
+    font-family: 'Inspiration', cursive;
+    /* font-weight:bold; */
+    
+}
+
+/* Footer */
+
+.footer {
+    margin-top: 1%;
+    text-align: center;
+    padding-top: 30px;
+    /* padding-bottom: 20px; */
+    /* padding-right: 50px; */
+    /* padding-right: 33%; */
+    font-size: 25px;
+    columns:3;
+    width:100%;
+    background-color: white;
+    position: relative;
+    color: black;
+    
+    
+}
+
+.footer p{
+    padding-bottom: 10px;
+}
+
+.socialicon{
+    width: 35px;
+    height: 35px;
+    margin: 0px 5px;
+    transition:all .1s linear;
+    
+}
+
+/* QuestionBlock */
+
+.Quest{
+    width: 100%;
+    /* position:absolute; */
+}
+
+main{
+    margin: 50px 80px;
+    width: 40%;
+    float: left;
+    font-size: larger;
+}
+
+
+
+main .user  {
+    margin-bottom: 25px;
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+
+main .delete-icon {
+    float: right;
+    color: #134b57;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .edit-icon {
+    float: right;
+    margin-right: 25px;
+    color: #165664;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .delete-icon:hover,
+main .edit-icon:hover {
+    opacity: 0.5;
+}
+
+aside {
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 5%;
+    float:left;
+}
+
+form input:not([type="checkbox"]),
+form textarea,
+form button {
+    width: 90%;
+    padding: 15px 5%;
+    font-family:'Playfair Display';
+    font-weight: 300;
+    margin-bottom: 10px;
+    border: 0;
+    background: white;
+    color: black;
+    outline: none;
+}
+
+input[type="checkbox"]{
+    margin: 10px;
+}
+
+form button{
+    width: 100%;
+    cursor: pointer;
+    transition: transform 500ms ease;
+}
+
+form button:hover {
+    transform: scale(1.1);
+}
+
+.user form{
+    margin-top: 20px;
+}
+
+.user a{
+    text-decoration: none;
+    color: black;
+}
+
+.user form input,
+.user form button,
+.user form textarea{
+    background: #134b57;
+}
+
+.user form button:hover{
+    transform: scale(1.01);
+}
+
+/* CreateQuestionPage */
+
+.CreateQuestionPage
+{
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.MainTextCreateQuestionPage{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+/* .SupTextCreateQuestion{
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: larger;
+    text-indent: 3%;
+    text-align: justify;
+} */
+
+/* SelectMenu */
+
+.SelectMenu
+{
+    float :left;
+    margin-top: 50px;
+    background: white;
+    font-weight: bold;
+    padding: 20px;
+    width: 18%;
+    margin-bottom: 50px;
+
+}
+
+.MainText{
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+
+.SelectMenuButton{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    display:block;
+    padding: 10px 10px;
+    margin-right: 10px;
+    /* margin: 0 20px; */
+    background: white;
+    border-color: #00aeff;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* AboutUsPage */
+
+.MidPicAUP{
+    background: url(../img/MidPicAUP.jpg) no-repeat;
+    /* position: absolute; */
+    height: 600px;
+    display: flex;
+    background-size: cover;    
+}
+
+.MidPicAUP::after{
+    content: "GamerGen Q&A - сайт, направленный на объединение заинтересованных в играх людей, для поиска ответов на вопросы. Концепция проста: У тебя есть вопрос - у нас есть ответ.";
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 50px;
+    color: black;
+    width: 800px;
+    /* font-weight:bold; */
+    
+}
+
+/* ProfilePage */
+
+.ProfileBlock{
+    position:static;
+    width: 25%;
+    border-right: 1px solid #fff;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    float: left;
+}
+
+.ProfileBlock h2,
+.ProfileBlock a,
+.ProfImg{
+    padding-top: 2%;
+}
+
+.ProfileBlock h2{
+    text-align: center;
+}
+
+.ProfileBlock a{
+    display: flex;
+    justify-content: center;
+}
+
+.ProfImg{
+    width: 220px;
+    height: 220px;
+    border-radius:100%;
+    display:block;
+    margin:auto;
+}
+
+/* .ProfileQuestions{
+    margin-left: 20%;
+} */
+
+.ProfileQuestions main{
+    margin-left: 16%;
+}
+
+/* Registration Page */
+
+.EntPageMain{
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: xx-large;
+    text-align: center;
+    
+}
+
+.Enter{
+    font-size: 25px;
+    text-align: center;
+}
+
+.Enter p{
+    margin-top: 1%;
+}
+
+.Enter h5{
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.InpEntForm{
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.05);
+    background-size: 45px;
+    background-position: right;
+    border-radius: 15px;
+    border-color: #00aeff;
+    color: black;
+    width: 15%;
+    margin-top: 1%;
+}
+
+.ForgPas{
+    text-decoration:underline;
+    color: black;
+}
+
+.ForgPas:hover{
+    color: aqua;
+    text-decoration:underline;
+}
+
+.EntButton{
+    color: black;
+    text-decoration: none;
+    position: relative;
+    vertical-align: top;
+    padding: 10px 10px;
+    /* margin: 0 20px; */
+    background: white;
+    border-color: #00aeff;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 1%;
+}
+
+.QBInQuestionStyle{
+    margin-left: 15%;
+    
+}
+
+/* Subscribe Page */
+
+.SubscribePic{
+    background: url(../img/please\ stand\ by.jpg) no-repeat;
+    /* position: absolute; */
+    height: 800px;
+    display: flex;
+    background-size: cover;
+    
+}
+
